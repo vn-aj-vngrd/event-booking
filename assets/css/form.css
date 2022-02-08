@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: whitesmoke;
+  height: 100%;
+}
+
+.section-title h3 {
+  margin: 15px 0 0 0;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-title h3 span {
+  color: #106eea;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.section-title p {
+  margin: 15px auto 0 auto;
+  font-weight: 520;
+}
+
+.wrapper {
+  padding: 30px 50px;
+  border-radius: 15px;
+  margin: 1px auto;
+  max-width: 800px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.form-control {
+  border-radius: 10px;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border: 1.5px solid #3b8af2;
+}
+
+input[placeholder] {
+  font-weight: 500;
+}
+
